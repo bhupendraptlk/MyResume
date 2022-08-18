@@ -1,8 +1,7 @@
 import React from "react";
 import Self from "../images/self.jpg";
 import webDev from "../images/icons/webDev.png";
-// import resume from "../Files/bhupendraResume.pdf";
-
+import cv from "../Files/bhupendraCV.pdf";
 const About = () => {
   return (
     <>
@@ -38,9 +37,9 @@ const About = () => {
               </div>
             </div>
           </div>
-          {/* <form method="get" action={resume} target="_blank">
-            <button className="aboutResume" download>Download Resume</button>
-          </form> */}
+          <form method="get" action={cv} target="_blank">
+            <button className="aboutResume" download>Download CV</button>
+          </form>
         </div>
       </div>
     </>

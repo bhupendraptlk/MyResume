@@ -1,9 +1,9 @@
 :root{
-  --body-light: #FFFFFF;
-  --body-dark: #000000;
+  --light: #FFFFFF;
+  --dark: #000000;
 }
 body{
-  background-color: var(--body-light);
+  background-color: var(--light);
 }
 .flex{
   display: flex;
@@ -26,6 +26,12 @@ body{
 .p0{
   padding: 0;
 } 
+.hidden{
+  display: none;
+}
+.notHidden{
+  display: block;
+}
 .headerNav{
   padding: 16px 0;
 }
@@ -42,8 +48,13 @@ body{
   display: inline-block;
   top: 50%;
   /* left: 40px; */
-  padding: 0 43px;
+  padding: 0 35px;
   transform: translate(0,-50%);
+}
+.hamburgerMenu button{
+  padding: 0;
+  border: none;
+  background: none;
 }
 .socialWrapper  {
   position: fixed;
@@ -57,15 +68,19 @@ body{
   margin-top: 84px;
 }
 .menuContent{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: var(--light);
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
-  padding: 0;
+  padding: 24px 0;
+  border-bottom: 1px solid #eaeaea;
 }
 .menuContent li{
   display: flex;
-  padding: 16px 0;
   list-style-type: none;
   margin-right: 45px;
 }
