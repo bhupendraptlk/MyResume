@@ -1,7 +1,7 @@
 import './App.css';
-import Main from './components/main';
+import Main from './components/Main';
 import Menu from './components/Menu';
-import Socials from './components/socials';
+import Socials from './components/Socials';
 function App() {
   return (
     <div className="App">
@@ -16,10 +16,10 @@ function App() {
           </div>
         </div>
       </header>
-      <div className='flex js'>
+      <div className='mainWrapper'>
         <Menu />
-        <Main />
         <Socials />
+        <Main />
       </div>
     </div>
   );

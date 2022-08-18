@@ -4,7 +4,7 @@ import hamburger from '../images/icons/hamburgerDesktop.png';
 const Menu = () =>{
     return(
         <>
-          <div>
+        <div className='hamburgerMenu'>
             <img src={hamburger}/>
           </div>
         </>

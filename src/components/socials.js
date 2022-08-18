@@ -7,12 +7,14 @@ import facebook from '../images/icons/facebook.svg';
 export const Socials=()=>{
     return(
         <>
+        <div className='socialWrapper'>
           <div className="socialIcons flex fc">
-              <img src={linkedIn} alt="LinkedIn"/>
-              <img src={twitter} alt="Twitter"/>
-              <img src={instagram} alt="instagram"/>
-              <img src={facebook} alt="Facebook"/>
+              <a href="https://www.linkedin.com/in/bhupendraptlk/" target="_blank"><img src={linkedIn} alt="LinkedIn"/></a>
+              <a href="https://twitter.com/bhupendraptlk" target="_blank"><img src={twitter} alt="Twitter"/></a>
+              <a href="https://www.instagram.com/bhupendraptlk/" target="_blank"><img src={instagram} alt="instagram"/></a>
+              <a href="https://www.linkedin.com/in/bhupendraptlk/" target="_blank"><img src={facebook} alt="Facebook"/></a>
           </div>
+        </div>
         </>
     );
 }
