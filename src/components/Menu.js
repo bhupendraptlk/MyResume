@@ -14,15 +14,17 @@ const Menu = () =>{
     return(
         <>
           <div className='hamburgerMenu'>
-            <button onClick={showModal}><img src={hamburger}/></button>
+            <button type='button' onClick={showModal}><img src={hamburger}/></button>
           </div>
           <div id="modal" className={showMenu? 'notHidden' : 'hidden'}>
             <div className='menu-modal-content flex ac'>
-              <button className='closeBtn' onClick={()=>setShowMenu(!showMenu)}><img src={close}/></button>
-              <div className='modal-inner-menu flex fc'>
+              <div className='modal-inner-menu flex fc jc'>
                 <div>ABOUT</div>
                 <div>EDUCATION</div>
                 <div>PROJECTS</div>
+              </div>
+              <div className='closeBtnOuter flex ac'>
+                <button type='button' className='closeBtn' onClick={()=>setShowMenu(!showMenu)}><img src={close}/></button>
               </div>
             </div>
           </div>
