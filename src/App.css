@@ -4,6 +4,7 @@
 }
 body{
   background-color: var(--light);
+  font-family: 'Roboto', sans-serif;
 }
 .flex{
   display: flex;
@@ -64,9 +65,6 @@ body{
   padding: 0 38px;
   transform: translate(0,-50%);
 }
-.aboutSection{
-  margin-top: 84px;
-}
 .menuContent{
   position: sticky;
   top: 0;
@@ -77,6 +75,7 @@ body{
   align-items: center;
   margin: 0;
   padding: 24px 0;
+  margin-bottom: -48px;
   border-bottom: 1px solid #eaeaea;
 }
 .menuContent li{
@@ -85,7 +84,8 @@ body{
   margin-right: 45px;
 }
 .menuContent li a{
-  color: #000;
+  color: #1A1A1A;
+  font-weight: 500;
   text-decoration: none;
 }
 .menuContent li a:hover{
@@ -96,7 +96,7 @@ body{
 }
 .aboutSection{
   display: flex;
-  margin: 48px 0 88px 0;
+  padding-top: 78px;
 }
 .aboutImage{
   display: flex;
@@ -108,7 +108,7 @@ body{
 .aboutRightContent{
   display: flex;
   flex-direction: column;
-  margin-left: 84px;
+  margin-left: 78px;
 }
 .aboutRightQuote h2{
   padding: 0;
@@ -167,7 +167,7 @@ body{
   cursor: pointer;
 }
 .educationSection{
-  margin: 36px 0 88px 0;
+  padding-top: 78px;
 }
 .educationSection .educationTitle{
   text-align: center;
@@ -204,6 +204,9 @@ body{
 .educationCards p{
   font-weight: 400;
   font-size: 16px;
+}
+.projectSectionOuter{
+  padding-top: 78px;
 }
 .projectSectionOuter .projectTitle{
   text-align: center;
@@ -277,7 +280,7 @@ body{
 }
 .skillCategoryInner{
   min-width: 80px;
-  margin-right: 84px;
+  margin-right: 74px;
   display: flex;
   flex-direction: column;
   align-items: center;

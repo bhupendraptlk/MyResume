@@ -10,10 +10,10 @@ const Main = () =>{
       <div className='container'>
         <BsCarousel />
         <ul className="menuContent">
-          <li><a href="#myAbout">About</a></li>
-          <li><a href="#myEducation">Education</a></li>
-          <li><a href="#mySkills">Skills</a></li>
-          <li><a href="#myProjects">Projects</a></li>
+          <li><a href="#myAbout">ABOUT</a></li>
+          <li><a href="#myEducation">EDUCATION</a></li>
+          {/* <li><a href="#mySkills">Skills</a></li> */}
+          <li><a href="#myProjects">PROJECTS</a></li>
         </ul>
         <About />
         <Education />
