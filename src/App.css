@@ -26,41 +26,6 @@ body{
 }
 .p0{
   padding: 0;
-} 
-.hidden{
-  display: none!important;
-}
-.notHidden{
-  display: block;
-}
-#modal{
-  width: 100%;
-  height: 100%;
-  z-index: 101;
-  background-color: rgba(0,0,0,.7);
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 200%;
-  opacity: 0;
-  transition: all 500ms ease-in-out;
-}
-.menu-modal-content{
-  margin-left: 0!important;
-  height: 100%;
-  width: 100%;
-  max-width: 260px;
-  margin: auto;
-  overflow: auto;
-}
-.modal-inner-menu{
-  padding: 0 50px;
-  height: 100%;
-  background-color: var(--light);
 }
 .headerNav{
   padding: 16px 0;
@@ -73,6 +38,11 @@ body{
 /* .mainWrapper{
   position: relative;
 } */
+.modal-inner-menu{
+  padding: 0 50px;
+  height: 100vh;
+  background-color: var(--light);
+}
 .closeBtnOuter{
   height: 100%;
   background-color: transparent;
@@ -99,6 +69,16 @@ body{
   position: absolute;
   top: 50%;
   transform: translate(-50%, 0);
+}
+.bsCanvas.offcanvas{
+  max-width: 260px;
+  background-color: transparent;
+}
+.bsCanvas .offcanvas-body{
+  padding: 0;
+}
+.bsCanvas.offcanvas-start{
+  border: none;
 }
 .socialWrapper  {
   position: fixed;
