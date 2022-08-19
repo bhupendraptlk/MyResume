@@ -1,25 +1,28 @@
 import React, { useState } from 'react';
 import hamburger from '../images/icons/hamburgerDesktop.png';
+import close from '../images/icons/close.png';
 
 const Menu = () =>{
   const [showMenu,setShowMenu]=useState(false);
+  const showModal = () =>{
+    setShowMenu(!showMenu);
+    var modal=document.getElementById('modal');
+    console.log(modal);
+    modal.style.left='0';
+    modal.style.opacity='100%';
+  }
     return(
         <>
           <div className='hamburgerMenu'>
-            <button onClick={()=>setShowMenu(!showMenu)}><img src={hamburger}/></button>
+            <button onClick={showModal}><img src={hamburger}/></button>
           </div>
-          <div className={showMenu? 'notHidden modal' : 'hidden'}>
-            <div className='menu-modal-content'>
-              <div className='flex js'>
-                <div>Menu</div>
-                <button className='closeBtn' onClick={()=>setShowMenu(!showMenu)}>X</button>
-              </div>
-              <div className='flex fc'>
-                <div>a</div>
-                <div>b</div>
-                <div>c</div>
-                <div>d</div>
-                <div>e</div>
+          <div id="modal" className={showMenu? 'notHidden' : 'hidden'}>
+            <div className='menu-modal-content flex ac'>
+              <button className='closeBtn' onClick={()=>setShowMenu(!showMenu)}><img src={close}/></button>
+              <div className='modal-inner-menu flex fc'>
+                <div>ABOUT</div>
+                <div>EDUCATION</div>
+                <div>PROJECTS</div>
               </div>
             </div>
           </div>
