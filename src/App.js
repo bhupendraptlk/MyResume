@@ -1,7 +1,7 @@
 import './App.css';
-import Main from './components/Main';
+import Main from './components/main';
 import Menu from './components/Menu';
-import Socials from './components/Socials';
+import Socials from './components/socials';
 function App() {
   return (
     <div className="App">
