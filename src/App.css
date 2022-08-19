@@ -26,12 +26,6 @@ body{
 }
 .p0{
   padding: 0;
-} 
-.hidden{
-  display: none;
-}
-.notHidden{
-  display: block;
 }
 .headerNav{
   padding: 16px 0;
@@ -44,26 +38,60 @@ body{
 /* .mainWrapper{
   position: relative;
 } */
+.modal-inner-menu{
+  padding: 0 50px;
+  height: 100vh;
+  background-color: var(--light);
+}
+.closeBtnOuter{
+  height: 100%;
+  background-color: transparent;
+}
+.closeBtn{
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  background-color: var(--light);
+}
 .hamburgerMenu{
   position: fixed;
-  display: inline-block;
-  top: 50%;
-  /* left: 40px; */
-  padding: 0 35px;
-  transform: translate(0,-50%);
+  top: 0;
+  height: 100vh;
+  width: 117px;
+  text-align: center;
 }
 .hamburgerMenu button{
   padding: 0;
   border: none;
   background: none;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, 0);
+}
+.bsCanvas.offcanvas{
+  max-width: 260px;
+  background-color: transparent;
+}
+.bsCanvas .offcanvas-body{
+  padding: 0;
+}
+.bsCanvas.offcanvas-start{
+  border: none;
 }
 .socialWrapper  {
   position: fixed;
-  top: 50%;
-  /* right: 40px; */
+  top: 0;
   right: 0;
-  padding: 0 38px;
-  transform: translate(0,-50%);
+  height: 100vh;
+  width: 116px;
+  text-align: center;
+}
+.socialIcons{
+  position: absolute;
+  top: 50%;
+  transform: translate(100%, -50%);
 }
 .menuContent{
   position: sticky;
