@@ -7,7 +7,7 @@ import Three from '../images/3.jpg';
 export default function bsCarousel() {
   return (
     <>
-      <Carousel>
+      <Carousel controls={false}>
         <Carousel.Item>
           <img
             className="d-block w-100"
