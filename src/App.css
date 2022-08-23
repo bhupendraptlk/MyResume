@@ -231,12 +231,14 @@ body{
   color: #808080;
 }
 .educationCards h2{
-  font-size: 24px;
+  font-size: 20px;
   margin: 16px 0;
+  font-family: 'Oswald', sans-serif;
 }
 .educationCards p{
   font-weight: 400;
   font-size: 16px;
+  margin-bottom: 0;
 }
 .projectSectionOuter{
   padding-top: 78px;
@@ -400,5 +402,21 @@ body{
   }
   .educationTimeline{
     flex-direction: column;
+  }
+  .educationSection .educationTitle{
+    margin: 0 0 28px 0;
+  }
+  .educationCards{
+    margin-bottom: 24px;
+  }
+  .educationCards:last-child{
+    margin-bottom: 0;
+  }
+  .educationCards h2{
+    font-size: 18px;
+    margin: 4px 0;
+  }
+  .educationSection ,.projectSectionOuter{
+    padding-top: 48px;
   }
 }
