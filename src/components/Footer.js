@@ -12,7 +12,7 @@ const Footer = () => {
         <h4>Got a project?</h4>
         <div className="footerProjectTalk"><a href="https://www.linkedin.com/in/bhupendraptlk" target="_blank">Let's Talk</a></div>
       </div>
-      <div className="footerMain">
+      {/* <div className="footerMain">
         <div className="footerMainSocial">
           <a href="https://www.linkedin.com/in/bhupendraptlk" target="_blank"><img src={LinkedIn} alt="LinkedIn" /></a>
           <a href="https://twitter.com/bhupendraptlk" target="_blank"><img src={Twitter} alt="Twitter" /></a>
@@ -20,7 +20,7 @@ const Footer = () => {
           <a href="https://www.facebook.com/bhupendraptlk" target="_blank"><img src={Facebook} alt="Facebook" /></a>
         </div>
         <div className="footerMainTag">by Bhupendra Patel</div>
-      </div>
+      </div> */}
     </div>
     </>
   );

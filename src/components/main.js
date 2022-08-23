@@ -3,6 +3,7 @@ import BsCarousel from './Carousel';
 import About from './About';
 import Education from './Education';
 import Projects from './Projects';
+import Footer from './Footer';
 
 const Main = () =>{
     return(
@@ -18,6 +19,7 @@ const Main = () =>{
         <About />
         <Education />
         <Projects />
+        <Footer />
       </div>
       </>
     );
