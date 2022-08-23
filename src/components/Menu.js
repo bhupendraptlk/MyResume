@@ -10,7 +10,7 @@ const Menu = () =>{
   const handleShow = () => setShow(true);
     return(
         <>
-          <div className='hamburgerMenu'>
+          <div className='hamburgerMenu hide-mob'>
             <button type='button' onClick={handleShow}>
               <img src={hamburger}/>
             </button>

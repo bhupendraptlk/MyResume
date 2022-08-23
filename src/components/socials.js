@@ -7,7 +7,7 @@ import instagram from '../images/icons/instagram.svg';
 export const Socials=()=>{
     return(
         <>
-        <div className='socialWrapper'>
+        <div className='socialWrapper hide-mob'>
           <div className="socialIcons flex fc">
               <a href="https://www.linkedin.com/in/bhupendraptlk/" target="_blank"><img src={linkedIn} alt="LinkedIn"/></a>
               <a href="https://www.github.com/bhupendraptlk/" target="_blank"><img src={github} alt="Github"/></a>

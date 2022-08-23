@@ -14,7 +14,7 @@ const About = () => {
             <h2>Bring Passion to</h2>
             <h2 className="aboutRightHighlight">everything I do</h2>
           </div>
-          <p>My name is Bhupendra Patel. I am 21 years old and a third year student from Lovely Professional University. My hometown is in Madhya Pradesh and I live in Bangalore.</p>
+          <p className="self-intro">Hey There! My name is Bhupendra Patel. I am 21 years old and a third year student from Lovely Professional University. My hometown is in Madhya Pradesh and I live in Bangalore.</p>
           <div className="aboutSkillSection">
             <div className="aboutSkillSectionInnerOne">
               <div className="aboutSkillDetailOne">

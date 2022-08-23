@@ -194,6 +194,11 @@ body{
   background-color: #fff;
   cursor: pointer;
 }
+.self-intro{
+  font-family: 'Oswald', sans-serif;  
+  font-size: 22px;
+  line-height: 32px;
+}
 .educationSection{
   padding-top: 78px;
 }
@@ -253,7 +258,6 @@ body{
   display: flex;
   justify-content: space-between;
   gap: 124px;
-  margin-bottom: 100px;
 }
 .projectFirst{
   margin-bottom: 100px;
@@ -349,4 +353,52 @@ body{
 }
 .footerMainSocial img{
   margin-right: 48px;
+}
+
+@media screen and (max-width:768px){
+  .hide-mob{
+    display:none;
+  }
+  .aboutSection{
+    flex-direction: column;
+    padding: 0;
+  }
+  .aboutRightContent{
+    margin: 24px 0 0 0;
+  }
+  .aboutRightQuote h2{
+    font-size: 40px;
+  }
+  .aboutRightContent .aboutRightHighlight{
+    width: 305px;
+  }
+  .aboutImage img{
+    width: 100%;
+  }
+  .aboutSkillSectionInnerOne, .aboutSkillSectionInnerTwo{
+    justify-content: space-between;
+  }
+  .aboutSkillDetailOne, .aboutSkillDetailTwo{
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+  }
+  .aboutSkillSection h4{
+    font-size: 18px;
+    margin-top: 8px;
+  }
+  .projectSection{
+    flex-direction: column;
+    gap: 0;
+    justify-content: initial;
+  }
+  .projectFirst{
+    margin-bottom: 48px;  
+  }
+  .projectSection img{
+    order: 1;
+  }
+  .educationTimeline{
+    flex-direction: column;
+  }
 }

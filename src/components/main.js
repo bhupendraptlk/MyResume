@@ -9,7 +9,7 @@ const Main = () =>{
       <>
       <div className='container'>
         <BsCarousel />
-        <ul className="menuContent">
+        <ul className="menuContent hide-mob">
           <li><a href="#myAbout">ABOUT</a></li>
           <li><a href="#myEducation">EDUCATION</a></li>
           {/* <li><a href="#mySkills">Skills</a></li> */}
