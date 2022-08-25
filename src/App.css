@@ -9,6 +9,12 @@ body{
 .flex{
   display: flex;
 }
+.inline-flex{
+  display: inline-flex;
+}
+.w100{
+  width: 100%;
+}
 .fc{
   flex-direction: column;
 }
