@@ -1,10 +1,23 @@
-import React from "react";
+import React,{useState,useRef,useEffect} from "react";
 import Self from "../images/self.jpg";
 import webDev from "../images/icons/webDev.png";
 import cv from "../Files/bhupendraCV.pdf";
 const About = () => {
+  const [isVisible, setVisible] = useState(true);
+
+  const domRef = React.useRef();
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => setVisible(entry.isIntersecting));
+    });
+
+    observer.observe(domRef.current);
+    return () => observer.unobserve(domRef.current);
+  }, []);
   return (
     <>
+    <div ref={ domRef } className={ `fade-in-top ${ isVisible ? 'is-visible' : '' }` }>
       <div id="myAbout" className="aboutSection">
         <div className="aboutImage">
           <img src={Self} alt="Me" />
@@ -42,6 +55,7 @@ const About = () => {
           </form>
         </div>
       </div>
+    </div>
     </>
   );
 };
