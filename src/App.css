@@ -94,8 +94,10 @@ body{
 }
 .hamburgerMenu{
   position: fixed;
-  top: 0;
-  height: 100vh;
+  top: 72px;
+  z-index: 100;
+  background-color: var(--light);
+  height: calc(100vh - 73px);
   width: 117px;
   text-align: center;
 }
@@ -119,9 +121,11 @@ body{
 }
 .socialWrapper  {
   position: fixed;
-  top: 0;
+  top: 72px;
+  z-index: 100;
   right: 0;
-  height: 100vh;
+  height: calc(100vh - 73px);
+  background-color: var(--light);
   width: 116px;
   text-align: center;
 }
@@ -307,6 +311,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 42%;
 }
 /* .projectDetailFirst p{
   padding-right: 16px;
@@ -434,8 +439,14 @@ body{
     gap: 0;
     justify-content: initial;
   }
-  .projectSection img{
+  .projectSection a:nth-child(odd){
     order: 1;
+  }
+  .projectSection a:nth-child(even){
+    order: 1;
+  }
+  .projectDetailSection{
+    max-width: 100%;
   }
   .educationTimeline{
     flex-direction: column;
