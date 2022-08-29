@@ -23,7 +23,7 @@ const Projects = () => {
           <div className="projectSection mb-48-80">
             <div className="projectDetailSection">
                 <h2>Chaipoint</h2>
-                <p>A project done during internship</p>
+                <p>A live project completed during my internship @Dukaan. It's an online store of the infamous tea shop "Chaipoint", selling a variety of tea products online.</p>
             </div>
           <a href="https://chaipointshop.com" target='_blank'><img src={Cp} alt="chaipoint"  className="w100"/></a>
           </div>
@@ -31,13 +31,13 @@ const Projects = () => {
             <a href="https://bhupendraptlk.github.io/Gold-s-Gym/" target='_blank'><img src={Gold} alt="gold's gym"  className="w100"/></a>
             <div className="projectDetailSection">
                 <h2>Gold's Gym</h2>
-                <p>A project done in 2nd Semester using HTML5, CSS3, Javascript and Bootstrap</p>
+                <p>This project was done during my first year of College using HTML5, CSS3, Javascript and Bootstrap, where a user could purchase a gym package after creating or signing in through his account.</p>
             </div>
           </div>
           <div className="projectSection">
             <div className="projectDetailSection">
                 <h2>Parking Management System</h2>
-                <p>A project done in 3rd Semester implemented using Python and SQL. This project was based on python GUI where a user could login into the parking management system and or create a new account and book a parking slot with just few clicks.</p>
+                <p>A project done in 3rd Semester, which was implemented using Python and SQL. This project was based on python GUI where a user could login into the parking management system or create a new account and book a parking slot depending on the type of vehicle.</p>
             </div>
             <img src={Pms} alt="PMS"/>
           </div>
