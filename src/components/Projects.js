@@ -23,7 +23,7 @@ const Projects = () => {
           <div className="projectSection mb-48-80">
             <div className="projectDetailSection">
                 <h2>Chaipoint</h2>
-                <p>A live project completed during my internship @Dukaan. It's an online store of the infamous tea shop "Chaipoint", selling a variety of tea products online.</p>
+                <p>A live project completed during my internship @Dukaan®. An online store of the infamous tea shop 'Chaipoint', selling a variety of tea products online.</p>
             </div>
           <a href="https://chaipointshop.com" target='_blank'><img src={Cp} alt="chaipoint"  className="w100"/></a>
           </div>

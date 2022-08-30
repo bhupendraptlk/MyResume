@@ -7,12 +7,12 @@ function App() {
     <div className="App">
       <header>
         <div className='container'>
-          <div className='headerNav flex ac js'>
-            <div className='flex ac'>
-              <span>Theme : </span>
+          <div className='headerNav flex ac jc'>
+            {/* <div className='flex ac'>
+              <span className='header-mail'>Theme : </span>
               <input type='checkbox' className='m0'/>
-            </div>
-            <div>bhupendraptlk@gmail.com</div>
+            </div> */}
+            <a href="mailto:bhupendraptlk@gmail.com" className='header-mail'>bhupendraptlk@gmail.com</a>
           </div>
         </div>
       </header>

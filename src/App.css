@@ -67,6 +67,11 @@ body{
 .headerNav{
   padding: 16px 0;
 }
+.header-mail{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
 .socialIcons img{
   width: 40px;
   height: 40px;
@@ -406,6 +411,13 @@ body{
   .mb-48-80{
     margin-bottom: 48px;
   }
+  header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: var(--light);
+    border-bottom: 1px solid #eaeaea;
+  }
   .aboutSection{
     flex-direction: column;
     padding: 0;
@@ -421,6 +433,10 @@ body{
   }
   .aboutImage img{
     width: 100%;
+  }
+  .self-intro{
+    font-size: 20px;
+    line-height: 28px;
   }
   .aboutSkillSectionInnerOne, .aboutSkillSectionInnerTwo{
     justify-content: space-between;
@@ -472,5 +488,8 @@ body{
   }
   .footerProject .footerProjectTalk a{
     font-size: 48px;
+  }
+  .header-mail{
+    font-size: 16px;
   }
 }

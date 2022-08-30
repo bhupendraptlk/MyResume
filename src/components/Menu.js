@@ -19,9 +19,7 @@ const Menu = () =>{
             <Offcanvas.Body>
               <div className='flex ac'>
                 <div className='modal-inner-menu flex fc jc'>
-                  <div>ABOUT</div>
-                  <div>EDUCATION</div>
-                  <div>PROJECTS</div>
+                  <div>Coming soon</div>
                 </div>
                 <div className='closeBtnOuter flex ac'>
                   <button type='button' className='closeBtn' onClick={handleClose}><img src={close}/></button>
