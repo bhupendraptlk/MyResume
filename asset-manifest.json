@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/MyResume/static/css/main.04cc61e7.css",
+    "main.js": "/MyResume/static/js/main.eb40827c.js",
+    "static/js/787.d3dd3dac.chunk.js": "/MyResume/static/js/787.d3dd3dac.chunk.js",
+    "static/media/3.jpg": "/MyResume/static/media/3.7b5c46c65123420c2060.jpg",
+    "static/media/1.jpg": "/MyResume/static/media/1.a5b0cabe9024b9e7bce0.jpg",
+    "static/media/goldsGym_2.png": "/MyResume/static/media/goldsGym_2.4581539d184dbe808df1.png",
+    "static/media/chaipointshop.png": "/MyResume/static/media/chaipointshop.78ec93baf3045a5c050f.png",
+    "static/media/2.jpg": "/MyResume/static/media/2.1a6cda7cf2a3892254b3.jpg",
+    "static/media/self.jpg": "/MyResume/static/media/self.6ba58b432a3a40eb9e52.jpg",
+    "static/media/bhupendraCV.pdf": "/MyResume/static/media/bhupendraCV.a06ed7d783b447ab1376.pdf",
+    "static/media/pms.png": "/MyResume/static/media/pms.f96f647afecb3901478e.png",
+    "static/media/github.svg": "/MyResume/static/media/github.2d9441fd09eb357d50dac98c8f0bc702.svg",
+    "index.html": "/MyResume/index.html",
+    "static/media/instagram.svg": "/MyResume/static/media/instagram.e12c98bcb98b568a13121d788538e0ce.svg",
+    "static/media/linkedin.svg": "/MyResume/static/media/linkedin.6f93e62029885080abdcff85e74f2751.svg",
+    "static/media/facebook.svg": "/MyResume/static/media/facebook.bf9a8309d218ec6f4e2da6a27707d994.svg",
+    "main.04cc61e7.css.map": "/MyResume/static/css/main.04cc61e7.css.map",
+    "main.eb40827c.js.map": "/MyResume/static/js/main.eb40827c.js.map",
+    "787.d3dd3dac.chunk.js.map": "/MyResume/static/js/787.d3dd3dac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04cc61e7.css",
+    "static/js/main.eb40827c.js"
+  ]
+}
