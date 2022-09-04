@@ -16,7 +16,7 @@ export default function bsCarousel() {
           />
           <Carousel.Caption>
             <h3>First</h3>
-            <p>Hey</p>
+            <p>Project</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -28,7 +28,7 @@ export default function bsCarousel() {
 
           <Carousel.Caption>
             <h3>Second</h3>
-            <p>Sup</p>
+            <p>in</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -40,7 +40,7 @@ export default function bsCarousel() {
 
           <Carousel.Caption>
             <h3>Third</h3>
-            <p>Bye</p>
+            <p>Progress..</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
